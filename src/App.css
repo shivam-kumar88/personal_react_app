@@ -7,6 +7,47 @@
   pointer-events: none;
 }
 
+.header-box {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.header-text{
+  color: #fff;
+  font-weight: 700;
+
+}
+
+.header-text:hover{
+  color: #61dafb;
+}
+
+.base {
+  background-color: #000036;
+  align-items: center;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.greeting{
+  color: #fff;
+  height: 200px;
+  margin-bottom: 30%;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 100px;
+
+}
+
+.greeting:hover{
+  color: #2588a3;
+
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
