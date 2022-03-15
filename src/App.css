@@ -25,7 +25,7 @@
 }
 
 .base {
-  background-color: #000036;
+  background-image: linear-gradient(rgb(34, 78, 99), #fff);
   align-items: center;
   display: flex;
   color: #fff;
@@ -43,10 +43,7 @@
 
 }
 
-.greeting:hover{
-  color: #2588a3;
 
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
